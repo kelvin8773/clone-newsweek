@@ -24,3 +24,22 @@ a:hover {
 li {
   list-style: none;
 }
+
+.container {
+  max-width: 1310px;
+}
+
+main [class^="card"] img + h6 {
+  position: absolute;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.8);
+  left: 0;
+}
+
+#main-feature-story img + h6 {
+  top: 165px;
+}
+
+#main-top-story img + h6 {
+  top: 382px;
+}
