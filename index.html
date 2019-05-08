@@ -36,7 +36,9 @@
     <!-- Begin of Header  -->
 
     <header class="container border-bottom ">
-      <nav class="row justify-content-around align-items-baseline bg-danger">
+      <nav
+        class="row justify-content-around align-items-baseline bg-danger pt-2 pb-1"
+      >
         <h5 class="col-3 text-white font-weight-lighter">
           Sun, May 05, 2019
         </h5>
@@ -63,7 +65,7 @@
       </nav>
 
       <ul
-        class="row justify-content-center align-items-center bg-white py-3 mb-0"
+        class="list-unstyled row justify-content-center align-items-center bg-white py-3 mb-0"
       >
         <li class="col border-right border-light text-center">
           <h5 class="mb-0">
@@ -129,25 +131,30 @@
 
     <!-- Begin of main content  -->
 
-    <main class="container bg-white">
-      <!-- main section one  -->
-      <div id="main-section1" class="row">
+    <main class="container pt-1 px-4 bg-white border-bottom">
+      <!-- main section one Start -->
+
+      <div id="main-section1" class="row mb-3">
         <div id="main-section1-col1" class="col-3">
           <div id="main-feature-story">
-            <h6 class="mt-3 mb-2 text-uppercase text-black-50">
-              Feature Stories
+            <h6
+              class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder"
+            >
+              Featured Stories
             </h6>
 
             <!-- feature story card link  -->
             <div class="card border-0">
-              <img
-                src="./assets/images/china-re-education-camps-uighurs-xinjiang.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <h6 class="py-2 px-3 text-uppercase text-danger">
-                World
-              </h6>
+              <div class="img-container">
+                <img
+                  src="./assets/images/china-re-education-camps-uighurs-xinjiang.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h6 class="py-2 px-3 text-uppercase text-danger">
+                  World
+                </h6>
+              </div>
 
               <div class="card-body px-0 py-2">
                 <h4>
@@ -172,14 +179,16 @@
 
             <!-- feature story card link  -->
             <div class="card border-0">
-              <img
-                src="./assets/images/border-patrol.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <h6 class="py-2 px-3 text-uppercase text-danger">
-                U.S.
-              </h6>
+              <div class="img-container">
+                <img
+                  src="./assets/images/border-patrol.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h6 class="py-2 px-3 text-uppercase text-danger">
+                  U.S.
+                </h6>
+              </div>
 
               <div class="card-body px-0 py-2">
                 <h4>
@@ -206,14 +215,16 @@
 
             <!-- feature story card link  -->
             <div class="card border-0">
-              <img
-                src="./assets/images/venezuelamaduromarch_0.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <h6 class="py-2 px-3 text-uppercase text-danger">
-                World
-              </h6>
+              <div class="img-container">
+                <img
+                  src="./assets/images/venezuelamaduromarch_0.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h6 class="py-2 px-3 text-uppercase text-danger">
+                  World
+                </h6>
+              </div>
 
               <div class="card-body px-0 py-2">
                 <h4>
@@ -240,14 +251,16 @@
 
             <!-- feature story card link  -->
             <div class="card border-0">
-              <img
-                src="./assets/images/house-democrats-hold-william-barr-contempt.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <h6 class="py-2 px-3 text-uppercase text-danger">
-                U.S.
-              </h6>
+              <div class="img-container">
+                <img
+                  src="./assets/images/house-democrats-hold-william-barr-contempt.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h6 class="py-2 px-3 text-uppercase text-danger">
+                  U.S.
+                </h6>
+              </div>
 
               <div class="card-body px-0 py-2">
                 <h4>
@@ -276,20 +289,24 @@
 
         <div id="main-section1-col2" class="col-6">
           <div id="main-top-story">
-            <h6 class="mt-3 mb-2 text-uppercase text-black-50">
+            <h6
+              class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder"
+            >
               Top Story
             </h6>
 
             <!-- Top story card link  -->
             <div class="card border-0">
-              <img
-                src="./assets/images/gettyimages-1084652224-594x594.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <h6 class="py-2 px-3 text-uppercase text-danger">
-                World
-              </h6>
+              <div class="img-container">
+                <img
+                  src="./assets/images/gettyimages-1084652224-594x594.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h6 class="text-uppercase text-danger">
+                  World
+                </h6>
+              </div>
 
               <div class="card-body px-0 py-2">
                 <h4>
@@ -318,7 +335,9 @@
           </div>
 
           <div id="main-more-stories">
-            <h6 class="mt-3 mb-2 text-uppercase text-black-50">
+            <h6
+              class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder"
+            >
               More Stories
             </h6>
 
@@ -406,8 +425,10 @@
                 />
                 <div class="media-body">
                   <h6 class="mt-0 mb-1">
-                    DeVos Says Teachers Should Protest Wages on 'Adult Time,'
-                    Not During School
+                    <a href="#">
+                      DeVos Says Teachers Should Protest Wages on 'Adult Time,'
+                      Not During School
+                    </a>
                   </h6>
                   "It's important that adults have adult disagreements on adult
                   time, and that they not ultimately hurt kids in the process,"
@@ -423,8 +444,10 @@
                 />
                 <div class="media-body">
                   <h6 class="mt-0 mb-1">
-                    Experts React to Sunscreen Blood Absorption Warning: Keep
-                    Using Sunblock
+                    <a href="#">
+                      Experts React to Sunscreen Blood Absorption Warning: Keep
+                      Using Sunblock
+                    </a>
                   </h6>
                   The risks of using sunscreen are far outweighed by the
                   benefits of protecting your skin from cancer, experts said.
@@ -439,8 +462,10 @@
                 />
                 <div class="media-body">
                   <h6 class="mt-0 mb-1">
-                    Chernobyl Disaster True Story: First Responders Speak On
-                    Radiation Deaths
+                    <a href="#">
+                      Chernobyl Disaster True Story: First Responders Speak On
+                      Radiation Deaths
+                    </a>
                   </h6>
                   First responders at the Chernobyl disaster faced radiation and
                   death. Some of their stories have only been told years after
@@ -456,7 +481,9 @@
                 />
                 <div class="media-body">
                   <h6 class="mt-0 mb-1">
-                    Washington Post Readers Slam Steve Bannon Column
+                    <a href="#">
+                      Washington Post Readers Slam Steve Bannon Column
+                    </a>
                   </h6>
                   "Why would anyone give this maniac a platform?" one social
                   media user asked.
@@ -467,9 +494,540 @@
         </div>
 
         <div id="main-section1-col3" class="col-3">
-          column3
+          <!-- Main Opinion Section Begin -->
+          <div id="main-opinion">
+            <h6
+              class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder"
+            >
+              opinion
+            </h6>
+
+            <!-- Opinion Card list  -->
+            <ul class="list-unstyled">
+              <li class="media py-3 border-bottom">
+                <img
+                  style="width: 4rem"
+                  src="./assets/images/robert_reich.png"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      I Remember Having Measles as a Kid. It Was No Fun
+                    </a>
+                  </h6>
+                  <span class="text-uppercase text-black-50">
+                    BY <a class="text-black-50" href="#"> robert reich </a>
+                  </span>
+                </div>
+              </li>
+
+              <li class="media py-3 border-bottom">
+                <img
+                  style="width: 4rem"
+                  src="./assets/images/nw-columnists-dr.-rachel-mckinnon_0.png"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      The Caster Semenya Decision Is Wrongheaded and
+                      Discriminatory
+                    </a>
+                  </h6>
+                  <span class="text-uppercase text-black-50">
+                    BY <a class="text-black-50" href="#"> RACHEL MCKINNON </a>
+                  </span>
+                </div>
+              </li>
+
+              <li class="media py-3 border-bottom">
+                <img
+                  style="width: 4rem"
+                  src="./assets/images/peter_roff.png"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      Venezuelans Deserve to Know Just How Far Donald Trump Will
+                      Go To Help Them
+                    </a>
+                  </h6>
+                  <span class="text-uppercase text-black-50">
+                    BY <a class="text-black-50" href="#"> PETER ROFF </a>
+                  </span>
+                </div>
+              </li>
+
+              <li class="media py-3 border-bottom">
+                <img
+                  style="width: 4rem"
+                  src="./assets/images/nw-columnists-katie-mehnert.png"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#"> Why Big Oil Should Embrace Greta Thunberg </a>
+                  </h6>
+                  <span class="text-uppercase text-black-50">
+                    BY <a class="text-black-50" href="#"> katie mehnert </a>
+                  </span>
+                </div>
+              </li>
+
+              <li class="media py-3 border-bottom">
+                <img
+                  style="width: 4rem"
+                  src="./assets/images/nw-columnists-alasdair-mackenzie_0.png"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      Evolution Is a Brutal, Uncaring Opponent That We Need to
+                      Outmanoeuvre
+                    </a>
+                  </h6>
+                  <span class="text-uppercase text-black-50">
+                    BY
+                    <a class="text-black-50" href="#"> ALASDAIR MACKENZIE </a>
+                  </span>
+                </div>
+              </li>
+
+              <li class="media py-3 border-bottom">
+                <img
+                  style="width: 4rem"
+                  src="./assets/images/nw-columnist-nick-akerman.png"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      North Korea is Testing Nuclear Weapons—Here's What Geology
+                      Can Tell Us
+                    </a>
+                  </h6>
+                  <span class="text-uppercase text-black-50">
+                    BY
+                    <a class="text-black-50" href="#">
+                      MARSHALL ROGERS-MARTINEZ
+                    </a>
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- Main Opinion Section End -->
+
+          <!-- Main Latest News Section Begin -->
+          <div id="main-latest-news">
+            <h6
+              class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder"
+            >
+              latest news
+            </h6>
+
+            <!-- latest news Card list  -->
+            <ul class="list-unstyled">
+              <li class="media py-2 border-bottom">
+                <img
+                  style="width: 8rem"
+                  src="./assets/images/mass-grave-poland.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1 ">
+                    <a class="font-weight-bolder" href="#">
+                      DNA Reveals Clues About Ancient Mass Grave of Massacred
+                      Women and Children
+                    </a>
+                  </h6>
+                </div>
+              </li>
+
+              <li class="media py-2 border-bottom">
+                <img
+                  style="width: 8rem"
+                  src="./assets/images/melania-trump-flotus.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1 ">
+                    <a class="font-weight-bolder" href="#">
+                      Melania Trump Spokeswoman Slams Former FLOTUS Adviser:
+                      ‘Bruised Ego’
+                    </a>
+                  </h6>
+                </div>
+              </li>
+
+              <li class="media py-2 border-bottom">
+                <img
+                  style="width: 8rem"
+                  src="./assets/images/bob-mueller.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1 ">
+                    <a class="font-weight-bolder" href="#">
+                      Clinton Lawyer: Mueller 'Incoherent and Illogical' In Not
+                      Prosecuting Trump
+                    </a>
+                  </h6>
+                </div>
+              </li>
+
+              <li class="media py-2 border-bottom">
+                <img
+                  style="width: 8rem"
+                  src="./assets/images/mason-bogard.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1 ">
+                    <a class="font-weight-bolder" href="#">
+                      Mother Blames 'Stupid' Choking Challenge' for Death of Her
+                      Teenage Son
+                    </a>
+                  </h6>
+                </div>
+              </li>
+
+              <li class="media py-2 border-bottom">
+                <img
+                  style="width: 8rem"
+                  src="./assets/images/kim-jong-un-nuclear-weapons.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1 ">
+                    <a class="font-weight-bolder" href="#">
+                      North Korea is Testing Nuclear Weapons—Here's What Geology
+                      Can Tell Us
+                    </a>
+                  </h6>
+                </div>
+              </li>
+
+              <li class="media py-2 border-bottom">
+                <img
+                  style="width: 8rem"
+                  src="./assets/images/gettyimages-1135936112.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1 ">
+                    <a class="font-weight-bolder" href="#">
+                      Candace Owens Says It Would Be Funny If Trump Deported
+                      Ilhan Omar
+                    </a>
+                  </h6>
+                </div>
+              </li>
+
+              <li class="media py-2 border-bottom">
+                <img
+                  style="width: 8rem"
+                  src="./assets/images/immigration-and-customs-enforcement.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1 ">
+                    <a class="font-weight-bolder" href="#">
+                      Oregon Man Jailed for Trying to Bribe ICE Officer $4,000
+                      to Deport His Wife
+                    </a>
+                  </h6>
+                </div>
+              </li>
+
+              <li class="media py-2 border-bottom">
+                <img
+                  style="width: 8rem"
+                  src="./assets/images/brian-sims.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1 ">
+                    <a class="font-weight-bolder" href="#">
+                      Pennsylvania Dem Criticized for Harassing Planned
+                      Parenthood Protesters
+                    </a>
+                  </h6>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- Main Latest News Section End -->
+
+          <!-- advertisement Subscribe news Letter  -->
+          <div class="card">
+            <div class="card-body bg-light py-2 px-4 ">
+              <div
+                class="d-flex justify-content-around align-items-center my-2"
+              >
+                <h5 class="nw-logo">
+                  N
+                </h5>
+                <h5 class="card-title text-uppercase mb-0">
+                  Sign up for our newsletter
+                </h5>
+              </div>
+
+              <button
+                class="btn btn-secondary text-uppercase px-4 my-2 rounded-0"
+              >
+                sign up >
+              </button>
+
+              <p><a href="#"> Update your preference >> </a></p>
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- main section one End  -->
+
+      <!-- main section two start  -->
+      <div id="main-section2">
+        <!-- In The Magazine Section Start -->
+
+        <div class="row align-items-start mb-3">
+          <div id="main-current-issue" class="col-3">
+            <div class="card border-0">
+              <div class="img-container">
+                <img
+                  src="./assets/images/19190510cover1800x24002.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h6 class="py-2 px-3 text-uppercase text-danger">
+                  May 10 issue
+                </h6>
+              </div>
+
+              <div class="card-body py-2 bg-light">
+                <h5 class="mb-0 text-center">
+                  <a class="text-uppercase" href="#">
+                    see all features >
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- In The Magazine Section 1 -->
+
+          <div id="main-in-the-magazine-1" class="col-9">
+            <!-- in the magazine header  -->
+            <div class="d-flex justify-content-center align-items-baseline">
+              <h5 class="nw-logo">N</h5>
+              <h5 class="mb-0 text-uppercase font-weight-bolder">
+                In the Magazine
+              </h5>
+            </div>
+
+            <!-- In the magazine card  -->
+            <div class="row border-top pt-3 mt-2">
+              <div class="col-4 card border-0 ">
+                <img
+                  src="./assets/images/fenewtchina01banner.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="d-flex">
+                  <h6
+                    class="py-1 px-2 my-2 text-uppercase text-white bg-danger"
+                  >
+                    cover
+                  </h6>
+                  <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+                    World
+                  </h6>
+                </div>
+
+                <div class="card-body px-0 py-1">
+                  <h5>
+                    <a href="#">
+                      Gingrich: China Is Far More Dangerous Than We Thought
+                    </a>
+                  </h5>
+                </div>
+              </div>
+
+              <div class="col-4 card border-0 ">
+                <img
+                  src="./assets/images/gettyimages-1138455987_0.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="d-flex">
+                  <h6
+                    class="py-1 px-2 my-2 text-uppercase text-white bg-danger"
+                  >
+                    download
+                  </h6>
+                  <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+                    World
+                  </h6>
+                </div>
+
+                <div class="card-body px-0 py-1">
+                  <h5>
+                    <a href="#">
+                      In Sri Lanka, Bombings End a Short Spell of Peace
+                    </a>
+                  </h5>
+                </div>
+              </div>
+
+              <div class="col-4 card border-0 ">
+                <img
+                  src="./assets/images/tkcreditwilliamhereford226hires.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="d-flex">
+                  <h6
+                    class="py-1 px-2 my-2 text-uppercase text-white bg-danger"
+                  >
+                    downtime
+                  </h6>
+                  <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+                    Culture
+                  </h6>
+                </div>
+
+                <div class="card-body px-0 py-1">
+                  <h5>
+                    <a href="#">
+                      Thomas Keller Isn’t Trying to Reinvent Fine Dining
+                    </a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- In The Magazine Section 2 -->
+        <div id="main-in-the-magazine-2" class="row">
+          <div class="col-3 card border-0 ">
+            <img
+              src="./assets/images/fenewtchinasidebargaming1143071408.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="d-flex">
+              <h6 class="py-1 px-2 my-2 text-uppercase text-white bg-danger">
+                features
+              </h6>
+              <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+                World
+              </h6>
+            </div>
+
+            <div class="card-body px-0 py-1">
+              <h5>
+                <a href="#">
+                  5G Will Revolutionize Games
+                </a>
+              </h5>
+            </div>
+          </div>
+
+          <div class="col-3 card border-0 ">
+            <img
+              src="./assets/images/fenewtchinasidebar5g01450751277banner.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="d-flex">
+              <h6 class="py-1 px-2 my-2 text-uppercase text-white bg-danger">
+                features
+              </h6>
+              <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+                World
+              </h6>
+            </div>
+
+            <div class="card-body px-0 py-1">
+              <h5>
+                <a href="#">
+                  U.S. Lags China in 5G Network Equipment
+                </a>
+              </h5>
+            </div>
+          </div>
+
+          <div class="col-3 card border-0 ">
+            <img
+              src="./assets/images/gettyimages-975008304.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="d-flex">
+              <h6 class="py-1 px-2 my-2 text-uppercase text-white bg-danger">
+                downloads
+              </h6>
+              <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+                opinion
+              </h6>
+            </div>
+
+            <div class="card-body px-0 py-1">
+              <h5>
+                <a href="#">
+                  Notre Dame and Al-Aqsa Mosque: Repairing Sacred Spaces
+                </a>
+              </h5>
+            </div>
+          </div>
+
+          <div class="col-3 card border-0 ">
+            <img
+              src="./assets/images/infocus041138766409.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="d-flex">
+              <h6 class="py-1 px-2 my-2 text-uppercase text-white bg-danger">
+                big shots
+              </h6>
+              <h6 class="py-1 px-2 my-2 text-uppercase text-danger">
+                World
+              </h6>
+            </div>
+
+            <div class="card-body px-0 py-1">
+              <h5>
+                <a href="#">
+                  RESCUE MISSION
+                </a>
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- In the magazine section end -->
+      </div>
+      <!-- main section two end  -->
     </main>
 
     <!-- End of main content -->
@@ -527,80 +1085,82 @@
         <!-- Web Site links  -->
         <ul
           id="footer-weblinks"
-          class="col-8 d-flex flex-wrap justify-content-start"
+          class="list-inline col-8 d-flex flex-wrap justify-content-start"
         >
-          <li class="px-2 border-right">
+          <li class="px-2 my-1 border-right">
             <a class="text-black-50" href="#">About Us</a>
           </li>
-          <li class="px-2 border-right">
+          <li class="px-2 my-1 border-right">
             <a class="text-black-50" href="#">Corrections </a>
           </li>
-          <li class="px-2 border-right">
+          <li class="px-2 my-1 border-right">
             <a class="text-black-50" href="#">Contact Us </a>
           </li>
-          <li class="px-2 border-right">
+          <li class="px-2 my-1 border-right">
             <a class="text-black-50" href="#">Editorial Guidelines </a>
           </li>
-          <li class="px-2 border-right">
+          <li class="px-2 my-1 border-right">
             <a class="text-black-50" href="#">Advertise </a>
           </li>
-          <li class="px-2 border-right">
+          <li class="px-2 my-1 border-right">
             <a class="text-black-50" href="#">Copyright </a>
           </li>
-          <li class="px-2 border-right">
+          <li class="px-2 my-1 border-right">
             <a class="text-black-50" href="#">Terms & Conditions </a>
           </li>
-          <li class="px-2 border-right">
+          <li class="px-2 my-1 border-right">
             <a class="text-black-50" href="#">Privacy Policy </a>
           </li>
-          <li class="px-2 border-right">
+          <li class="px-2 my-1 border-right">
             <a class="text-black-50" href="#">Cookie Policy </a>
           </li>
-          <li class="px-2 border-right">
+          <li class="px-2 my-1 border-right">
             <a class="text-black-50" href="#">Terms of Sale </a>
           </li>
-          <li class="px-2 border-right">
+          <li class="px-2 my-1 border-right">
             <a class="text-black-50" href="#">Archive </a>
           </li>
-          <li class="px-2 border-right">
+          <li class="px-2 my-1 border-right">
             <a class="text-black-50" href="#">Announcements </a>
           </li>
-          <li class="px-2 ">
+          <li class="px-2 my-1 ">
             <a class="text-black-50" href="#">Consent preferences </a>
           </li>
         </ul>
 
         <!-- Web Site Edition/Language  -->
-        <ul
-          id="footer-editions"
-          class="col-4 d-flex flex-wrap justify-content-start "
-        >
-          <strong class="px-2 py-0">
+        <div class="col-4 row">
+          <strong class="col-2 px-2 py-1 text-black-50">
             Editions:
           </strong>
 
-          <li class="px-2 py-0 border-right">
-            <a class="text-black-50" href="#">U.S.Edition</a>
-          </li>
-          <li class="px-2 py-0 border-right">
-            <a class="text-black-50" href="#">Middle East</a>
-          </li>
-          <li class="px-2 py-0 border-right">
-            <a class="text-black-50" href="#">日本</a>
-          </li>
-          <li class="px-2 py-0 border-right">
-            <a class="text-black-50" href="#">한국</a>
-          </li>
-          <li class="px-2 py-0 border-right">
-            <a class="text-black-50" href="#">Pakistan</a>
-          </li>
-          <li class="px-2 py-0 border-right">
-            <a class="text-black-50" href="#">Polska</a>
-          </li>
-          <li class="px-2 py-0 ">
-            <a class="text-black-50" href="#">România</a>
-          </li>
-        </ul>
+          <ul
+            id="footer-editions"
+            class="list-inline col-10 d-flex flex-wrap justify-content-start "
+          >
+            <li class="list-inline-item px-2 my-1 mx-0 border-right">
+              <a class="text-black-50" href="#">U.S.Edition</a>
+            </li>
+            <li class="list-inline-item px-2 my-1 mx-0 border-right">
+              <a class="text-black-50" href="#">Middle East</a>
+            </li>
+            <li class="list-inline-item px-2 my-1 mx-0 border-right">
+              <a class="text-black-50" href="#">日本</a>
+            </li>
+            <li class="list-inline-item px-2 my-1 mx-0 border-right">
+              <a class="text-black-50" href="#">한국</a>
+            </li>
+            <li class="list-inline-item px-2 my-1 mx-0 border-right">
+              <a class="text-black-50" href="#">Pakistan</a>
+            </li>
+            <li class="list-inline-item px-2 my-1 mx-0 border-right">
+              <a class="text-black-50" href="#">Polska</a>
+            </li>
+            <li class="list-inline-item px-2 my-1 mx-0 ">
+              <a class="text-black-50" href="#">România</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
 
