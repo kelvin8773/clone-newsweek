@@ -9,7 +9,9 @@ body {
   font-family: "Fira Sans Extra Condensed", sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: "Bitter", serif;
 }
 a {
@@ -23,6 +25,18 @@ a:hover {
 
 .container {
   max-width: 1310px;
+}
+
+#header1 {
+  display: none;
+}
+
+#header2 {
+  display: block;
+}
+
+#main-section3 {
+  display: none;
 }
 
 main .img-container {
@@ -52,8 +66,35 @@ main .img-container h6 {
   line-height: 1.9rem;
 }
 
-#main-in-the-magazine-1 img,
-#main-in-the-magazine-2 img {
-  object-fit: cover;
-  height: 280px;
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #header1 {
+    display: block;
+  }
+  #header2 {
+    display: none;
+  }
+
+  #main-section3 {
+    display: block;
+  }
+
+  #footer-social-link {
+    text-align: right;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
