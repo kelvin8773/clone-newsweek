@@ -7,17 +7,19 @@ window.onscroll = function(e) {
       document.getElementById("header1").style.display = "none";
       document.getElementById("header2").style.display = "block";
     }
+  } else {
+    if (this.oldScroll > this.scrollY) {
+      document.getElementById("header2").style.position = "fixed";
+      document.getElementById("header2").style.zIndex = "99";
+      document.getElementById("header2").style.top = "0";
+      document.getElementById("main-section1").style.marginTop = "30px";
+    } else {
+      document.getElementById("header2").style.position = "fixed";
+      document.getElementById("header2").style.top = "-40px";
+    }
   }
 
-  if (this.oldScroll < this.scrollY) {
-    document.getElementById("header2").style.position = "fixed";
-    document.getElementById("header2").style.zIndex = "999";
-    document.getElementById("header2").style.top = "0";
-  } else {
-    document.getElementById("header2").style.position = "fixed";
-    document.getElementById("header2").style.top = "-40px";
-  }
-  console.log(this.scrollY);
+  // console.log(this.scrollY);
 
   this.oldScroll = this.scrollY;
 };
