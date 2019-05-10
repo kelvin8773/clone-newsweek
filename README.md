@@ -1,4 +1,4 @@
-# [newsweek.com](https://www.newsweek.com) (2019-05 Clone)
+# [Newsweek.com](https://www.newsweek.com) (2019-05 Clone) Project
 
 An odin project that use Bootstrap4 to clone newsweek.com page in April 2019.
 
@@ -13,15 +13,9 @@ An odin project that use Bootstrap4 to clone newsweek.com page in April 2019.
 
 - I learn a lot **Bootstrap 4** framework through this project, **Bootstrap 4** can help frontend developer decorate their website more effectively, I can use very little css (just about 100 line for custom css style, you can see inside the code) but still manage to build this project without any trouble, I actually think I can use zero css if I knew bootstrap 4 good enough.
 
-- However, I also find many limitation of **Bootstrap 4**, such as **grid system**, sizing, text. So if you really want a very customizable web style, I don't suggest to use bootstrap.
+- However, I also find many limitations of **Bootstrap 4**, such as **grid system**, sizing, text,border, color etcs. So if you really want a very customizable web style, I don't suggest to use bootstrap.
 
-## Related links
-
-[Original Website](https://www.newsweek.com/)
-
-[Odin Project Instruction Link](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
-
-[Project Demo](http://kelvin8773.github.io/clone-newsweek)
+* later I might want to learn more how to customize **Bootstrap 4** so I can really build my own framework on top of it.
 
 ### Philosohophy of **Bootstrap 4** Design in Summary
 
@@ -31,3 +25,11 @@ An odin project that use Bootstrap4 to clone newsweek.com page in April 2019.
 - Whenever possible, prefer a HTML and CSS implementation over JavaScript
 - Whenever possible, use utilities over custom styles
 - Whenever possible, avoid enforcing strict HTML requirements (children selectors)
+
+## Related links
+
+[Original Website](https://www.newsweek.com/)
+
+[Odin Project Instruction Link](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
+
+[Project Demo](http://kelvin8773.github.io/clone-newsweek)
