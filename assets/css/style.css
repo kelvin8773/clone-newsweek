@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Fira+Sans+Extra+Condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+/*  Use in CSS
+font-family: 'Bitter', serif;
+font-family: 'Fira Sans Extra Condensed', sans-serif;
+*/
+
+body {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+h1,
+h2,
+h3,
+.display-3,
+.navbar-brand {
+  font-family: "Bitter", serif;
+  font-weight: 900;
+}
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red !important;
+}
+
+.container {
+  max-width: 1310px;
+}
+
+#header1 {
+  display: none;
+}
+
+#header2 {
+  display: block;
+  transition: top 1s;
+}
+
+#main-section3 {
+  display: none;
+}
+
+main .img-container {
+  position: relative;
+}
+
+main .img-container h6 {
+  position: absolute;
+  z-index: 100x;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 8px 20px;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.nw-logo {
+  width: 32px;
+  height: 30px;
+  background: red;
+  color: white;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  font-family: "Bitter", serif;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.9rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #header1 {
+    display: block;
+  }
+
+  #header2 {
+    display: none;
+  }
+
+  #main-section3 {
+    display: block;
+  }
+
+  #footer-social-link {
+    text-align: right;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
