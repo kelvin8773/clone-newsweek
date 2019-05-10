@@ -11,8 +11,10 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+.navbar-brand {
   font-family: "Bitter", serif;
+  font-weight: 900;
 }
 a {
   color: black;
@@ -33,6 +35,7 @@ a:hover {
 
 #header2 {
   display: block;
+  transition: top 1s;
 }
 
 #main-section3 {

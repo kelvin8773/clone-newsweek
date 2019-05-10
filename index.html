@@ -37,8 +37,8 @@
   <body class="bg-light">
     <!-- Begin of Header  -->
 
-    <header class="sticky-top">
-      <div id="header1" class="container border-bottom">
+    <header>
+      <div id="header1" class="container border-bottom bg-white sticky-top">
         <nav
           class="row align-items-baseline bg-danger sticky-top pt-3 mb-0 text-white"
         >
@@ -67,7 +67,7 @@
           </div>
         </nav>
 
-        <ul class="nav nav-fill bg-white py-2">
+        <ul class="nav nav-fill py-2">
           <li class="nav-item border-right">
             <h5 class="mb-0">
               <a class="nav-link" href="#">U.S.</a>
@@ -124,20 +124,27 @@
         </ul>
       </div>
 
-      <div id="header2" class="container-fluid bg-danger">
+      <div id="header2" class="container-fluid bg-danger shadow-sm">
         <div
-          class="d-flex justify-content-between align-items-center text-white"
+          class="navbar navbar-expand bg-danger justify-content-between text-white p-0"
         >
-          <h3 class="font-weight-bold text-left mb-0">
-            Newsweek
-          </h3>
-          <div class="d-flex align-items-baseline text-uppercase pt-3">
-            <p>
-              <a class="text-white" href="#">Sign In</a>
-            </p>
-            <p class="bg-white text-danger px-2 py-1 mx-2 mb-0">Subscribe</p>
-            <i class="fas fa fa-bars"></i>
-          </div>
+          <a class="navbar-brand text-white" href="#">Newsweek</a>
+
+          <ul class="navbar-nav text-uppercase align-items-center">
+            <li class="nav-item">
+              <a class="nav-link text-white p-1" href="#">Sign In</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link bg-white text-danger px-2 py-0 mx-2" href="#">
+                Subscribe
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white p-1" href="#"
+                ><i class="fas fa fa-bars"></i
+              ></a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -2324,26 +2331,7 @@
     ></script>
 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script>
-      let prevScrollpos = window.pageYOffset;
 
-      window.onscroll = function() {
-        let currentScrollPos = window.pageYOffset;
-        let width = window.innerWidth;
-        console.log(prevScrollpos);
-
-        if (width >= 992) {
-          if (prevScrollpos > currentScrollPos) {
-            document.getElementById("header1").style.display = "none";
-            document.getElementById("header2").style.display = "block";
-          } else {
-            document.getElementById("header1").style.display = "block";
-            document.getElementById("header2").style.display = "none";
-          }
-        }
-
-        prevScrollpos = currentScrollPos;
-      };
-    </script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>
